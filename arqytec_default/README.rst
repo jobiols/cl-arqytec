@@ -1,4 +1,4 @@
-.. |customer| replace:: scaffolding
+.. |customer| replace:: arqytec
 
 .. |company| replace:: jeo Soft
 
