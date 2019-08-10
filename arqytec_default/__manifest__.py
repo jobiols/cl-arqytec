@@ -27,11 +27,8 @@
     'depends': [
         # basic applications
         'sale_management',
-        'account_invoicing',
         'purchase',
-
-        # minimum modules for argentinian localizacion + utilities + fixes
-        # 'standard_depends_ce',
+        'mrp'
 
     ],
     'data': [
@@ -64,6 +61,5 @@
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '12.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '10.1-alpine'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
-        {'name': 'aeroo', 'usr': 'adhoc', 'img': 'aeroo-docs'},
     ],
 }
